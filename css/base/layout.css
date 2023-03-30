@@ -1,0 +1,18 @@
+.container {
+    width: 850px;
+    margin-left: calc(50% - 400px);
+}
+
+.container .main-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.container > .left-column {
+    width: 1000px;
+}
+
+.container.main-image {
+    width: 100%;
+}
